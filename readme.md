@@ -3,8 +3,11 @@ Creates a Excel .xlsx file with a spreadsheet showing calculations and result ch
 
 # Screenshots
 ![Excel1.png](docs/Excel1.png "Example row and columns in generated file")
+
 ![ExcelChart1.png](docs/ExcelChart1.png "Example chart 1")
+
 ![ExcelChart2.png](docs/ExcelChart2.png "Example chart 2")
+
 ![ExcelChart3.png](docs/ExcelChart3.png "Example chart 3")
 
 # Skills used
