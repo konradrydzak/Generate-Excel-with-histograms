@@ -7,7 +7,7 @@ if __name__ == "__main__":
     for i in range(1, 6 + 1):
         results = {}
         for x in range(1, 1000000 + 1):
-            rand = sum([np.random.randint(1, 1000 + 1) for _ in range(i)])
+            rand = sum([np.random.randint(low=1, high=1000 + 1) for _ in range(i)])
             results.setdefault(rand, 0)
             results[rand] += 1
         for value in results:
@@ -21,6 +21,6 @@ if __name__ == "__main__":
         chartObj = openpyxl.chart.ScatterChart()
         chartObj.title = 'My ' + str(i) + ' chart'
         chartObj.append(seriesObj)
-        sheet.add_chart(chartObj, 'T' + str(15 * (i - 1) + 1))
+        sheet.add_chart(chart=chartObj, anchor='T' + str(15 * (i - 1) + 1))
         print(str(i) + ' part done.')
-    wb.save('Histograms.xlsx')
+    wb.save(filename='Histograms.xlsx')
