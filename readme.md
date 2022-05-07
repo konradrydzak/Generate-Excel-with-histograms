@@ -3,8 +3,8 @@ Creates a Excel .xlsx file with a spreadsheet showing calculations and result ch
 
 ## Setup
 
-1. Run command: *pip install -r requirements.txt*
-2. Run program at: *Generate_Excel_with_histograms.py*
+1. Run command: `pip install -r requirements.txt`
+2. Run program with command: `Generate_Excel_with_histograms.py`
 
 ## Screenshots
 ![Excel1.png](docs/Excel1.png "Example row and columns in generated file")
